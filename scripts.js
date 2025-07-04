@@ -24,7 +24,7 @@ function exibirNumero(numero) {
 
 // Somador de dois números.Peça dois números com prompt() e exiba a soma deles com alert().
 
-let numero1 = prompt("Digite o primeiro número:");
+let numero1 = prompt("Digite o primeiro número:"); // prompt() abre uma caixinha de input no navegador 
 let numero2 = prompt("Digite o segundo número:");
 
 numero1 = Number(numero1);
@@ -33,3 +33,10 @@ numero2 = Number(numero2);
 let soma = numero1 + numero2;
 
 alert("A soma dos dois números é: " + soma);
+
+// Transformar Graus CELSIUS para FAHRENHEIT
+let celsius = prompt("Digite a temperatura em graus Celsius:");
+celsius = Number(celsius);
+let fahrenheit = (celsius * 9/5) + 32;
+
+alert(`${celsius}°C equivalem a ${fahrenheit}°F`);523
