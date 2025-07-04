@@ -1,3 +1,5 @@
+// Exercícios de JavaScript INICIANTE - <3
+
 // Par ou Impar?
 // Destravando o poder do JavaScript com este exercício simples!
 
@@ -19,3 +21,15 @@ function exibirNumero(numero) {
         console.log(i);
     }
 }
+
+// Somador de dois números.Peça dois números com prompt() e exiba a soma deles com alert().
+
+let numero1 = prompt("Digite o primeiro número:");
+let numero2 = prompt("Digite o segundo número:");
+
+numero1 = Number(numero1);
+numero2 = Number(numero2);
+
+let soma = numero1 + numero2;
+
+alert("A soma dos dois números é: " + soma);
